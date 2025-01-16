@@ -24,7 +24,7 @@ let db;
 
         // Start the server only after successful DB connection
         app.listen(port, () => {
-            console.log(`Server is running on http://localhost:${port}`);
+            console.log(`Server is running on https://sportsbackend-6dsr.onrender.com/api/signups`);
         });
     } catch (error) {
         console.error('Failed to connect to MongoDB:', error.message);
